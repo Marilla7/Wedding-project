@@ -52,4 +52,12 @@
     transition: color .15s ease-in-out;
   }
   
+  .cover {
+    background: url('https://imgur.com/CuNduTQ.jpg') no-repeat 70% center/cover;
+    display: table;
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+  }
+  
   
