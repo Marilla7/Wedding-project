@@ -53,11 +53,19 @@
   }
   
   .cover {
-    background: url(/assets/MariannaandOtto.jpg) no-repeat 70% center/cover;
+    background: url('https://imgur.com/m0iZCyS.jpg') no-repeat 70% center/cover;
     display: table;
     text-align: center;
     height: 100vh;
     width: 100vw;
+  }
+  
+  @media (min-width: 768px) {
+  
+    .cover {
+      background: url('https://imgur.com/m0iZCyS.jpg') no-repeat center/cover;
+    }
+  
   }
   
   .bride-groom-wrapper {
@@ -79,9 +87,31 @@
     margin-bottom: 0; 
   }
   
+  @media (min-width: 768px) {
+  
+    .bride-groom {
+      padding: 1.25rem;
+      border-radius: 4px;
+      width: 50%;
+    }
+  
+    .bride-groom h1 {
+      font-size: 7rem;
+    }
+  
+  }
+  
   .tagline {
     font-size: 1.25rem;
     letter-spacing: .15rem;
+  }
+  
+  @media (min-width: 768px) {
+  
+    .tagline {
+      text-transform: uppercase;
+    }
+  
   }
   
   .tagline::after {
@@ -110,7 +140,6 @@
     margin: 0 .5rem;
   }
   
-
   .blurb img {
     height: 7.5rem;
   }
@@ -130,8 +159,23 @@
     width: 25vw;
     margin: 1.5rem auto;
     background-color: #444349;
-  }  
-
+  }
+  
+  @media (min-width: 768px) {
+  
+    .blurb {
+      display: inline-block;
+      width: 30%;
+      padding: 1.5rem;
+      margin: .5rem;
+    }
+  
+    .blurb::after {
+      display: none;
+    }
+  
+  }
+  
   .program {
     width: 100vw;
     text-align: left;
@@ -153,7 +197,16 @@
   .program ul {
     letter-spacing: .025rem;
   }
-
+  
+  @media (min-width: 768px) {
+  
+    .program-wrapper {
+      width: 30vw;
+      margin: 0 auto;
+    }
+  
+  }
+  
   .gifts img {
     height: 7.5rem;
   }
@@ -161,7 +214,7 @@
   .gifts p:last-child {   /* To even out the bottom and top margins of this section. */
     margin-bottom: 0;
   }
-
+  
   .faq {
     background: hsla(100,0%,0%,.6);
     color: #d2ba87;
@@ -178,7 +231,7 @@
     text-align: left;
   }
   
-  .question-group::after {
+  .important-questions::after {
     content: "";
     display: block;
     height: .1875rem;
@@ -186,6 +239,8 @@
     margin: 1.5rem auto;
     background-color: #d2ba87;
   }
+  
+  
   
   .question {
     font-weight: 700;
@@ -195,7 +250,27 @@
   .answer {
     margin-bottom: 1.5rem;
   }
-
+  
+  @media (min-width: 768px) {
+  
+    .important-questions {
+      display: inline-block;
+      width: 30%;
+      vertical-align: top;
+      padding: 1.5rem;
+      margin: .5rem;
+    }
+  
+    .important-questions::after {
+      display: none;
+    }
+  
+    .important-questions h3 {
+      text-align: left;
+    }
+  
+  }
+  
   footer {
     height: 10vh;
     width: 100vw;
@@ -220,5 +295,167 @@
   footer small {
     line-height: 1.5;
   }
-
+  
+  @media (min-width: 768px) {
+  
+    footer {
+      min-height: 7vh;
+    }
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
